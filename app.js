@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
 				clipPath: `circle(${5 + progress * 95}% at ${64 - progress * 14}% ${
 					31 + 19 * progress
 				}%)`,
-				scale: 1.2 - 0.5 * progress,
+				// scale: 1.2 - 0.5 * progress,
 			});
 		},
 	});
